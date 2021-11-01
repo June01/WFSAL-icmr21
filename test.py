@@ -249,7 +249,7 @@ def print_result_anet(ap_100, acc_100, ap, models_dir, verbose=True):
         print('mean of map@0.95 is         {}'.format(ap[17] * 100))
 
 
-        print('mean, max, min of map@0.5:0.95   {} {} {}'.format(np.mean(ap) * 100,
+        print('mean, max, min of map@0.5:0.95   {} {} {}'.format(np.mean(ap[8:]) * 100,
                                                                  np.max(np.mean(ap_100, axis=1)) * 100,
                                                                  np.min(np.mean(ap_100, axis=1)) * 100))
         print('diff is {} {}'.format((np.max(np.mean(ap_100, axis=1)) - np.mean(np.mean(ap_100, axis=1))) * 100,
