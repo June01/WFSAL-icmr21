@@ -91,7 +91,7 @@ python eval_non_learning.py
 
 ### Contact
 
-For any question, please file an issue or contact
+We would like thank Dr. Hongtao Yang for his useful discussions around the tasks discussed in this paper as well as the evaluation metrics used. For any question, please file an issue or contact
 
 ```
 t.xie@qmul.ac.uk
